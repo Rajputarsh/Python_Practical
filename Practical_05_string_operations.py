@@ -1,0 +1,16 @@
+s = input("Enter a string: ")
+
+print("Length:", len(s))
+print("Uppercase:", s.upper())
+print("Lowercase:", s.lower())
+print("Title case:", s.title())
+print("Swapcase:", s.swapcase())
+print("Reversed:", s[::-1])
+print("Words:", s.split())
+print("Word count:", len(s.split()))
+print("Vowels:", sum(1 for c in s.lower() if c in "aeiou"))
+print("Palindrome:", s.lower() == s.lower()[::-1])
+
+old = input("Substring to replace: ")
+new = input("Replace with: ")
+print("After replace:", s.replace(old, new))
