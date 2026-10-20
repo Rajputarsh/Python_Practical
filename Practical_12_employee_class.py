@@ -14,9 +14,9 @@ class Employee:
         print("Total employees:", cls.count)
 
 
-e1 = Employee("Amit", 50000)
-e2 = Employee("Riya", 60000)
-e3 = Employee("Neha", 55000)
+e1 = Employee("Nikhil", 50000)
+e2 = Employee("Aakash", 60000)
+e3 = Employee("Vipin", 55000)
 
 e1.display()
 e2.display()
