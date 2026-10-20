@@ -1,5 +1,5 @@
 # Python_Practical
-# object oriented programing using python
+# object oriented programming using python
 **NAME:** Kumar Arsh
 **Roll No:** 26570032
 **Course:** Bsc. (Hons) Computer Science
